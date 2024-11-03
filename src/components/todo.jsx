@@ -7,7 +7,7 @@ function Todos() {
     const dispatch = useDispatch();
 
     return (
-        <div className="max-w-lg mx-auto mt-10 p-6 bg-gray-400 rounded-lg shadow-lg">
+        <div className="max-w-lg lg:mx-auto mt-10 mx-4 p-6 bg-gray-400 rounded-lg shadow-lg">
             <h3 className="text-2xl font-bold text-black mb-6 text-center">Todo List</h3>
             <ul className="space-y-4">
                 {todos.map((todo) => (

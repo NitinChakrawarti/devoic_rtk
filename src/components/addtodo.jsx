@@ -13,7 +13,7 @@ function AddTodo() {
         }
     };
     return (
-        <form onSubmit={addTodoHandler} className="flex items-center space-x-4 mt-10 max-w-md mx-auto">
+        <form onSubmit={addTodoHandler} className="flex items-center space-x-4 mt-10 max-w-md lg:mx-auto mx-4">
             <input
                 type="text"
                 className="flex-1 bg-white rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-black py-2 px-4 leading-8 transition duration-200 ease-in-out"
