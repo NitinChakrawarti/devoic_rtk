@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addTodo } from '../features/todo/todoSlice';
-
 function AddTodo() {
     const [input, setInput] = useState('');
     const dispatch = useDispatch();
@@ -13,7 +12,6 @@ function AddTodo() {
             setInput('');
         }
     };
-
     return (
         <form onSubmit={addTodoHandler} className="flex items-center space-x-4 mt-10 max-w-md mx-auto">
             <input
@@ -32,5 +30,4 @@ function AddTodo() {
         </form>
     );
 }
-
 export default AddTodo;
